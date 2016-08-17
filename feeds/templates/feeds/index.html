@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feeds Page</title>
+</head>
+<body>
+    <h2>Feeds Page</h2>
+
+    {% if object_list %}
+        {% for feed in all_feeds %}
+            <h3>{{feed.title}}</h3>
+            <p><strong>{{feed.published}}</strong></p>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>

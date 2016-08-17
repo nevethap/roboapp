@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quotes Page</title>
+</head>
+<body>
+    <h2>Quotes Page</h2>
+
+    {% if object_list %}
+        {% for quote in all_quotes %}
+            <h3>{{quote.symbol}}</h3>
+            <p><strong>{{quote.quote}}</strong></p>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>
