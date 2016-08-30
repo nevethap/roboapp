@@ -10,6 +10,7 @@
     {% if object_list %}
         {% for feed in all_feeds %}
             <h3>{{feed.title}}</h3>
+            <h3><font color="red">{{feed.sentiment_score}}</font></h3>
             <p><strong>{{feed.published}}</strong></p>
         {% endfor %}
     {% endif %}

@@ -1,0 +1,39 @@
+A forward-looking sensor is seen mounted on a Delphi autonomous car before it departs Treasure Island for a cross-country trip from San Francisco to New York City in San Francisco, California March 22, 2015. REUTERS/Stephen Lam
+
+A new technology partnership between top auto suppliers Mobileye NV (MBLY.N) and Delphi Automotive Plc (DLPH.N) could pull ahead production of self-driving cars to late 2019, executives of both companies said Tuesday.
+
+Other automakers and suppliers previously have targeted 2020-2021 for initial deployment of fully automated, or Level 4, vehicles that require no human driver.
+
+Mobileye, a key supplier of vision-based sensing systems, and Delphi, a provider of automotive safety systems, said they plan to begin testing a jointly developed turn-key system for self-driving cars early next year.
+
+Mobileye's U.S.-listed shares were up 8.3 percent at $50.42 in mid-day trading, while Delphi's shares rose 3.2 percent to $67.15.
+
+Both companies supply parts and systems to many of the world's automakers, but declined to say if they had specific customers for their new system.
+
+The Mobileye/Delphi alliance is the latest in a series of partnerships aimed at speeding deployment of automated driving systems, raising questions about how and whether federal safety regulators will respond.
+
+"At this pace, we question whether regulators will be ready for these developments, but we think automakers and suppliers will push to accelerate the approval process," said S&P Capital Market Intelligence analyst Ephraim Levy in a research note on Tuesday.
+
+The U.S. National Highway Traffic Safety Administration did not respond immediately to a request for comment.
+
+In the past week, Ford Motor Co (F.N) said it plans to begin selling self-driving vehicles to commercial ride-sharing fleets in 2021 and has acquired a stake in Velodyne, a maker of laser-based lidar sensing systems.
+
+Ride services giant Uber Technologies Inc [UBER.UL] last week said it had acquired self-driving truck startup Otto and planned to partner this fall with Geely Automobile's (0175.HK) Volvo Cars on a test fleet of self-driving cars in Pittsburgh.
+
+Other large automakers, notably Toyota Motor Corp (7203.T), Volkswagen AG (VOWG_p.DE) and General Motors Co (GM.N), are developing self-driving vehicles in-house.
+
+Mobileye and Delphi plan to invest "hundreds of millions of dollars" in their self-driving system, which will combine hardware and software developed by both companies. The system will employ an array of sensors, including cameras, radar and lidar, and will have high-resolution mapping ability.
+
+The two companies said their technology would cater to smaller automakers that may not necessarily want to develop their own self-driving systems.
+
+"The smaller OEMs need a lot more assistance in autonomous driving and the Mobileye-Delphi platform would be high on the list for these companies," said IHS Automotive analyst Egil Juliussen.
+
+Mobileye earlier this year announced a self-driving vehicle partnership with German automaker BMW AG (BMWG.DE) and U.S. chipmaker Intel Corp (INTC.O), aimed at production in 2021.
+
+Mobileye Chairman Amnon Shashua on Tuesday said the new alliance with Delphi will be "complementary" to the BMW/Intel deal and that BMW had not selected a supplier for its planned self-driving system and components.
+
+Shashua also said "we are not changing our minds" about Mobileye's recent decision to end a partnership with Tesla Motors Inc (TSLA.O).
+
+Mobileye cut its ties with Tesla last month after the electric carmaker's Autopilot system faced scrutiny from regulators following a fatal accident in early May.
+
+(Reporting by Ankit Ajmera in Bengaluru and Paul Lienert in Detroit; Editing by Anil D'Silva and Nick Zieminski)

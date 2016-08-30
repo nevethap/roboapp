@@ -1,7 +1,7 @@
-from django.http import HttpResponse
-from django.shortcuts import render
 from django.views import generic
 from .models import RSSFeed
+from news_sentiment import aggregator
+import time
 
 # Create your views here.
 class IndexView(generic.ListView):
@@ -9,4 +9,8 @@ class IndexView(generic.ListView):
     context_object_name = 'all_feeds'
 
     def get_queryset(self):
-        return RSSFeed.objects.all()
+            aggregator.NewsAggregator.get_live_feeds(aggregator.NewsAggregator())
+            return RSSFeed.objects.order_by('-published')
+
+
+

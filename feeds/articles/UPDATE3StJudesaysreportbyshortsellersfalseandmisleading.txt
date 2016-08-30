@@ -1,0 +1,31 @@
+The ticker and trading information for St. Jude Medical is displayed where the stock is traded on the floor of the New York Stock Exchange (NYSE) in New York City, U.S., April 28, 2016. REUTERS/Brendan McDermid
+
+Medical device manufacturer St. Jude Medical Inc (STJ.N) said on Friday a report by short-selling firm Muddy Waters and a cyber-security researcher alleging its heart devices were riddled with bugs was "false and misleading."
+
+The report, which caused St. Jude shares to fall 5 percent after its release on Thursday, alleged there were significant security bugs in the company's Merlin@home device for monitoring implanted heart devices.
+
+St. Jude chief technology officer Phil Ebeling on Thursday said "the allegations are absolutely untrue" but provided no specific examples of errors.
+
+St. Jude on Friday said most of the observations in the report applied to older versions of its Merlin@home devices, which had not been patched with security upgrades that the company automatically pushes out to customers.
+
+"We want to reassure our patients that our systems meet the highest international security requirements, as required by regulatory authorities and international standards organizations," St Jude said.
+
+Muddy Waters late on Friday said it plans to publicly refute the response of St. Jude, which in April agreed to sell itself for $25 billion to Abbott Laboratories (ABT.N).
+
+"This was a missed opportunity for St. Jude to take responsibility for their flawed devices," the short seller said in a statement." MedSec executives could not be reached for comment.
+
+Muddy Waters had no immediate response to St Jude's claim that the testing was done on older versions of its devices with unpatched software. "We continue to stand by the report and are pleased the company has actually decided to respond to the allegations."
+
+St. Jude shares closed marginally higher on Friday after the company released its statement following a halt in trading. Earlier they had traded as low as $75.34 in heavy trade.
+
+Muddy Waters founder Carson Block said on Thursday he decided to short the stock after MedSec approached Muddy Waters about three months ago with results of research it had conducted into its medical device security.
+
+The two struck a deal under which Block agreed to hire the cyber security firm as a consultant, pay it a licensing fee for the research and a percentage of any profits from the investment, Block said.
+
+In its rebuttal on Friday, St Jude said the researchers used a "flawed test methodology on outdated software," demonstrating "lack of understanding of medical device technology."
+
+Beau Woods, a medical-device security expert with the non-profit Atlantic Council, said that while he had no knowledge of MedSec’s research methodology, St. Jude’s explanation sounded reasonable.
+
+“It makes sense that they would not have the current versions of software; that rings true to me,” said Woods. He said that medical device makers typically push out regular updates to their software, which include security patches.
+
+(Reporting by Jim Finkle in Toronto; Editing by Jeffrey Benkoe and James Dalgleish)
