@@ -1,4 +1,3 @@
-from django.views import generic
 from .models import News
 from news_sentiment import aggregator
 

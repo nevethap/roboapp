@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'robo_app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-	'NAME': 'feedsdb',
-	'USER': 'robo',
-	'PASSWORD': 'robo123',
-	'HOST': 'localhost',
-	'PORT': '',
+        'NAME': 'roboapp',
+        'USER': 'robouser',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 

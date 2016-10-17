@@ -1,5 +1,0 @@
-Aug 26 Medical device manufacturer St. Jude Medical Inc said on Friday that a report by short-selling firm Muddy Waters and a cyber-security researcher alleging its heart devices were riddled with bugs was "false and misleading."
-
-The report, which caused St Jude shares to decline after its release on Thursday, alleged there were significant security bugs in the company's Merlin@home device for monitoring implanted heart devices.
-
-(Reporting by Jim Finkle in Toronto; Editing by Jeffrey Benkoe)
