@@ -1,6 +1,8 @@
 from django.views import generic
-from .models import News
-from news_sentiment import aggregator
+
+from robo_app.models import News
+from robo_app.news_sentiment import aggregator
+
 
 # Create your views here.
 class IndexView(generic.ListView):

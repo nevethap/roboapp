@@ -31,8 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'feeds.apps.FeedsConfig',
-    'quotes.apps.QuotesConfig',
+    'robo_app',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -79,7 +78,7 @@ WSGI_APPLICATION = 'robo_app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'roboapp',
+        'NAME': 'roboadvisordb',
         'USER': 'robouser',
         'PASSWORD': 'password',
         'HOST': 'localhost',

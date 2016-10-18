@@ -2,11 +2,8 @@ import pysentiment
 
 class SentimentScorer:
 
-    def scoreArticle(self, url):
-        article_file = open(url, "r")
-        article_text = article_file.read()
+    def scoreArticle(self, article_text):
         lm = pysentiment.LM()
-
         tokens = lm.tokenize(article_text)
         score = lm.get_score(tokens)
         return score
