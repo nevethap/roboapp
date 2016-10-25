@@ -1,11 +1,12 @@
 import os
 import sys
+import django
 
-path = os.path.split(os.path.split(os.path.dirname(os.path.abspath(__file__)))[0])[0]
+path = (os.path.split(os.path.dirname(os.path.abspath(__file__)))[0])
+print(path)
 sys.path.append(path)
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "robo_app.settings")
 
-import django
 
 django.setup()
 
