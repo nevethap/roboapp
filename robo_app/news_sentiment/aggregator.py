@@ -9,27 +9,30 @@ from robo_app.news_sentiment.sentiment import SentimentScorer
 
 
 class NewsAggregator:
-    def get_live_feeds(self, keywords, newsGroup):
-        feed = feedparser.parse('http://feeds.reuters.com/reuters/hotStocksNews')
+    def get_live_feeds(self, keyword, newsGroup):
+        query = 'http://finance.yahoo.com/rss/headline?s=' + keyword
+        feed = feedparser.parse(query)
         date_format = "%Y-%m-%d"
         count = 0
         sentiment_sum = 0
         for entry in feed.entries:
-            # for keyword in keywords:
-                # if keyword in entry.title_detail.value:
-                    title = entry.title_detail.value
-                    article_link = entry.link
-                    publishedString = entry.published
-                    published = parser.parse(publishedString)
-                    date = str(published.date())[0]
-                    article_text = NewsCrawler.crawl_article(NewsCrawler(), article_link)
-                    sentimentScore = SentimentScorer()
-                    sentiment_score = sentimentScore.scoreArticle(article_text)
-                    sentiment_sum += sentiment_score['Polarity']
-                    count += 1
-                    models.News(headline=title, timestamp=published, url=article_link,
-                                sentiment=sentiment_score['Polarity'], asset=newsGroup.asset).save()
-        newsGroup.effect = sentiment_sum if count==0 else sentiment_sum/count
+            try:
+                title = entry.title_detail.value
+                article_link = entry.link
+                publishedString = entry.published
+                published = parser.parse(publishedString)
+                date = datetime.strptime(str(published.date()), date_format)
+                article_text = NewsCrawler.crawl_article(NewsCrawler(), article_link)
+                sentimentScore = SentimentScorer()
+                sentiment_score = sentimentScore.scoreArticle(article_text)
+                sentiment_sum += sentiment_score['Polarity']
+                models.News(headline=title, timestamp=date, url=article_link,
+                            sentiment=sentiment_score['Polarity'], asset=newsGroup.asset).save()
+                count += 1
+                if count == 5: break
+            except:
+                pass
+        newsGroup.effect = sentiment_sum if count == 0 else sentiment_sum / count
         newsGroup.save()
 
     def addApple(self, newsGroup):
@@ -42,7 +45,8 @@ class NewsAggregator:
         title = "The Apple half full"
         url = "https://finance.yahoo.com/video/apple-half-full-135748727.html"
         symbol = "AAPL"
-        models.News(headline=title, timestamp=date, url=url, sentiment=sentiment_score['Polarity'],asset=Asset.objects.get(symbol=symbol)).save()
+        models.News(headline=title, timestamp=date, url=url, sentiment=sentiment_score['Polarity'],
+                    asset=Asset.objects.get(symbol=symbol)).save()
         newsGroup.effect = sentiment_score['Polarity']
         newsGroup.save()
 
@@ -91,4 +95,3 @@ class NewsAggregator:
                     asset=Asset.objects.get(symbol=symbol)).save()
         newsGroup.effect = sentiment_score['Polarity']
         newsGroup.save()
-
