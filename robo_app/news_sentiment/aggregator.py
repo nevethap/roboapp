@@ -37,7 +37,7 @@ class NewsAggregator:
         sentimentScore = SentimentScorer()
         date = datetime.strptime(str(datetime.now().date()), date_format)
 
-        article = "bad very bad worse"
+        article = "Apple shares are lower after the company fiscal fourth-quarter earnings failed to impress investors even though Apple beat profit forecasts and essentially matched revenue projections. Investors seem to be focused instead on Apple profit margin forecast for the current quarter, which fell short of expectations."
         sentiment_score = sentimentScore.scoreArticle(article)
         title = "The Apple half full"
         url = "https://finance.yahoo.com/video/apple-half-full-135748727.html"
