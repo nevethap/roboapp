@@ -12,12 +12,13 @@ class NewsAggregator:
         count = 0
         sentiment_sum = 0
         for entry in feed.entries:
-            # for keyword in keywords:
-            #     if keyword in entry.title_detail.value:
+            for keyword in keywords:
+                if keyword in entry.title_detail.value:
                     title = entry.title_detail.value
                     article_link = entry.link
                     publishedString = entry.published
                     published = parser.parse(publishedString)
+                    date = published.date()
                     article_text = NewsCrawler.crawl_article(NewsCrawler(), article_link)
                     sentimentScore = SentimentScorer()
                     sentiment_score = sentimentScore.scoreArticle(article_text)
