@@ -16,5 +16,9 @@ keywords = {1: ["Vanguard large cap index adm"], 2: ['US aggregate bond'], 3: ['
             4: ['United States oil'], 5: ['Chevron Corporation'], 6: ['Apple Inc'], 7: ['Valero energy corporation'],
             8: ['Berkshire Hathaway'], 9: ['Facebook'],
             10: ["Google", "Alphabet Inc", "GOOG"]}
-for newsGroup in NewsGroup.objects.all():
-    NewsAggregator().get_live_feeds(keywords=keywords[newsGroup.id], newsGroup=newsGroup)
+# for newsGroup in NewsGroup.objects.all():
+#     NewsAggregator().get_live_feeds(keywords=keywords[newsGroup.id], newsGroup=newsGroup)
+#     break
+
+
+NewsAggregator().run(NewsGroup.objects.get(asset_id = 6))
