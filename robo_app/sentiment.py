@@ -15,8 +15,3 @@ from robo_app.news_sentiment.aggregator import NewsAggregator
 for newsGroup in NewsGroup.objects.all():
     symbol = (Asset.objects.get(id=newsGroup.asset_id)).symbol
     NewsAggregator().get_live_feeds(keyword=symbol, newsGroup=newsGroup)
-
-# NewsAggregator().addApple(NewsGroup.objects.get(asset_id=6))
-# NewsAggregator().add7(NewsGroup.objects.get(asset_id=7))
-# NewsAggregator().add5(NewsGroup.objects.get(asset_id=5))
-# NewsAggregator().add10(NewsGroup.objects.get(asset_id=10))
